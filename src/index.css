@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body,
+html,
+#root {
+    @apply h-full overflow-hidden
+}
+
+html {
+    @apply pb-safe-bottom
+}
+
+#root {
+    @apply relative;
+}
